@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import ReactDOM from 'react-dom';
 import AppContainer from './containers/AppContainer';
@@ -14,4 +15,15 @@ ReactDOM.render(
     </Route>
   </Router>,
   document.getElementById('app')
+=======
+'use strict';
+
+const React = require('react')
+const ReactDOM = require('react-dom')
+const Main = require('./Main')
+
+
+ReactDOM.render((<Main />),
+   document.getElementById('app')
+>>>>>>> 3991cf4a3d47445730f4ba0ef6a1efc73fa5ae20
 );

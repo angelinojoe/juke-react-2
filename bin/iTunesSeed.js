@@ -15,7 +15,11 @@ const log = require('./log')
 const Promise = db.Promise
 const KEY = Symbol('key')
 const TRACKS = Symbol('TRACKS')
+<<<<<<< HEAD
 const DEFAULT_TRACK_LIMIT = 100
+=======
+const DEFAULT_TRACK_LIMIT = 500
+>>>>>>> 3991cf4a3d47445730f4ba0ef6a1efc73fa5ae20
 
 const program = require('commander')
 
